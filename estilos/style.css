@@ -1,0 +1,59 @@
+@charset "UTF-8";
+ 
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+   height: 100vh;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #D6E2F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.container {
+    width: 315px;
+    height: 484px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+}
+.qrcode {
+    
+    width: 280px;
+    height: 280px;
+    background-image: url('../assets/image-qr-code.svg');
+}
+.subtitulo-code {
+    padding-top: 8px;
+    margin: auto;
+    width: 254px;
+    text-align: center;
+    
+}
+.subtitulo-qrcode {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    
+
+}
+.scan-the-qrcode {
+    font-family: 'Outfit', sans-serif;
+    font-family: 15px;
+    color: #7B879D;
+    font-weight: 400;
+    
+}
